@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TomatoGuard</string>
+    <string name="accuracy">99.5% Accuracy</string>
+    <string name="powered_by">Powered by AI</string>
+    <string name="select_image">Tap to select image</string>
+    <string name="healthy">HEALTHY</string>
+    <string name="disease">DISCOVERED DISEASE</string>
+    <string name="confidence">Confidence</string>
+    <string name="top_predictions">Top Predictions</string>
+    <string name="model_loading_failed">Failed to load model. Please restart.</string>
+</resources>
