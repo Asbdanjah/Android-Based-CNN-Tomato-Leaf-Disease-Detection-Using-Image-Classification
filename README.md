@@ -39,3 +39,9 @@ Tomato crop losses from diseases: **30-50%** annually in developing countries
 | ![Splash](docs/figures/splash_screen.png) | ![Home](docs/figures/home_screen.png) | ![Result](docs/figures/result_screen.png) | ![History](docs/figures/history_screen.png) |
 
 *App runs on Android 8.0+ | Tested on Pixel 4a, Galaxy A51, and emulators*
+
+## 🎬 Video Demo
+
+[![TomatoGuard Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+
+*Click to watch full demo (1 min)*
