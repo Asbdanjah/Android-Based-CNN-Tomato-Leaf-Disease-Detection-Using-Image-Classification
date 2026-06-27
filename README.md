@@ -36,7 +36,7 @@ Tomato crop losses from diseases: **30-50%** annually in developing countries
 
 | Splash Screen | Home Screen | Scan Result | History |
 |---|---|---|---|
-|<img width="197" height="425" alt="Screenshot 2026-06-27 194239" src="https://github.com/user-attachments/assets/8808c7b6-73a9-4afb-b32b-f4b9dc2aca5c" /> |<img width="196" height="423" alt="Screenshot 2026-06-27 194721" src="https://github.com/user-attachments/assets/f59cc828-6e3b-4ca1-9c36-80979f3e1531" /> | ![Result](docs/figures/result_screen.png) | ![History](docs/figures/history_screen.png) |
+|<img width="197" height="425" alt="Screenshot 2026-06-27 194239" src="https://github.com/user-attachments/assets/8808c7b6-73a9-4afb-b32b-f4b9dc2aca5c" /> |<img width="196" height="423" alt="Screenshot 2026-06-27 194721" src="https://github.com/user-attachments/assets/f59cc828-6e3b-4ca1-9c36-80979f3e1531" /> |  <img width="197" height="52" alt="Screenshot 2026-06-27 212548" src="https://github.com/user-attachments/assets/b93f0381-0b67-45e8-b097-d857660f807b" /> | <img width="196" height="425" alt="Screenshot 2026-06-27 212529" src="https://github.com/user-attachments/assets/971e06be-39f5-4244-b69d-af22abadbed8" /> |
 
 *App runs on Android 8.0+ | Tested on Pixel 4a, Galaxy A51, and emulators*
 
