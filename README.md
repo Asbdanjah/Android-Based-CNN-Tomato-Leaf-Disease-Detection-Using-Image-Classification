@@ -52,7 +52,8 @@ Tomato crop losses from diseases: **30-50% annually** in developing countries
 | Home Screen | Scan Result | History |
 |---|---|---|
 | Pick a leaf photo | See disease prediction | View past scans |
-| ![Home](docs/figures/screenshot1.png) | ![Result](docs/figures/screenshot2.png) | ![History](docs/figures/screenshot3.png) |
+| <img width="196" height="423" alt="Screenshot 2026-06-27 194721" src="https://github.com/user-attachments/assets/c228613a-d9ad-493c-b4ff-569cf591d3c6" /> |<img width="197" height="52" alt="Screenshot 2026-06-27 212548" src="https://github.com/user-attachments/assets/f5fcfce0-99b0-4b28-bc2a-cfeb20038a98" /> | <img width="196" height="425" alt="Screenshot 2026-06-27 212529" src="https://github.com/user-attachments/assets/6c3ffae0-5fb3-4e38-baf9-3d9a36dab70c" />
+ |
 
 ---
 
