@@ -329,7 +329,7 @@ You are free to use, modify, and distribute this software for personal or commer
 ## Questions or Issues?
 
 - 💬 Open a [GitHub Issue](https://github.com/Asbdanjah/Android-Based-CNN-Tomato-Leaf-Disease-Detection-Using-Image-Classification/issues) for bugs
-- 💭 Start a [Discussion](https://github.com/Asbdanjah/Android-Based-CNN-Tomato-Leaf-Disease-Detection-Using-Image-Classification/discussions) for questions
+- 💭 Start a [Discussions](https://github.com/Asbdanjah/Android-Based-CNN-Tomato-Leaf-Disease-Detection-Using-Image-Classification/discussions) for questions
 - 📧 Contact for other inquiries
 
 ---
