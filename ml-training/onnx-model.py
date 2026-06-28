@@ -1,4 +1,4 @@
-# ── CELL: Test ONNX Model ─────────────────────────────────────────
+#Test ONNX Model
 !pip install onnxruntime --quiet
 
 import onnxruntime as ort
@@ -7,10 +7,10 @@ from PIL import Image
 import torchvision.transforms as transforms
 import os
 
-# Path to your ONNX model
+# ONNX model path
 onnx_path = "/content/drive/MyDrive/TomatoGuard/tomatoguard_fixed.onnx"
 
-# Check if file exists
+# Checking if file exists
 if not os.path.exists(onnx_path):
     print(f" ONNX model not found at: {onnx_path}")
     print(" Available files:")
