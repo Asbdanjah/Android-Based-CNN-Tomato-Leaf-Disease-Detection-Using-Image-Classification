@@ -8,7 +8,7 @@
 [![ONNX](https://img.shields.io/badge/ONNX-1.19-brightgreen)](https://onnx.ai/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**AI-powered tomato leaf disease detection with 98.2% accuracy.**  
+**Android-based CNN Tomato Leaf Disease Detection Using Image Classification with 98.2% accuracy.**  
 Runs offline on your Android phone. No server needed. No subscription fees.
 
 [Features](#-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Model Info](#-model-info)
