@@ -155,6 +155,9 @@ fun HomeScreenIdlePreview() {
 
             // Preview the InfoBanner
             InfoBannerCard()
+
+            
+            
         }
     }
 }

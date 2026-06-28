@@ -20,11 +20,14 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.asbdanja.tomatoguard.ml.PredictionResult
 import com.asbdanja.tomatoguard.theme.ForestGreen
+import com.asbdanja.tomatoguard.theme.TomatoGuardTheme
 import com.asbdanja.tomatoguard.theme.TomatoRed
 import com.asbdanja.tomatoguard.viewmodel.ScanViewModel
 
@@ -154,3 +157,77 @@ fun HistoryItem(result: PredictionResult, onShare: () -> Unit) {
         }
     }
 }
+
+@Preview(showBackground = true, name = "History Item - Diseased")
+@Composable
+fun HistoryItemDiseasedPreview() {
+    TomatoGuardTheme(darkTheme = true) {
+        Box(modifier = Modifier.padding(16.dp)) {
+            HistoryItem(
+                result = PredictionResult(
+                    label = "Late Blight",
+                    confidence = 0.92f,
+                    isHealthy = false
+                ),
+                onShare = {}
+            )
+        }
+    }
+}
+
+@Preview(showBackground = true, name = "History Item - Healthy")
+@Composable
+fun HistoryItemHealthyPreview() {
+    TomatoGuardTheme(darkTheme = true) {
+        Box(modifier = Modifier.padding(16.dp)) {
+            HistoryItem(
+                result = PredictionResult(
+                    label = "Healthy Tomato",
+                    confidence = 0.98f,
+                    isHealthy = true
+                ),
+                onShare = {}
+            )
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Preview(showSystemUi = true, name = "Full History Screen")
+@Composable
+fun HistoryScreenEmptyPreview() {
+    // Note: Since HistoryScreen requires a real ViewModel,
+    // we preview the layout structure here.
+    TomatoGuardTheme(darkTheme = true) {
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(MaterialTheme.colorScheme.background)
+        ) {
+            TopAppBar(
+                title = { Text("Scan History") },
+                navigationIcon = {
+                    IconButton(onClick = {}) {
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, "Back", tint = Color.White)
+                    }
+                },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = ForestGreen,
+                    titleContentColor = Color.White
+                )
+            )
+            // Mocking the empty state
+            Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                Column(horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Icon(Icons.Outlined.History, contentDescription = null,
+                        tint     = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.3f),
+                        modifier = Modifier.size(48.dp))
+                    Text("No scans yet",
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.5f))
+                }
+            }
+        }
+    }
+} 

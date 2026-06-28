@@ -16,11 +16,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.asbdanja.tomatoguard.theme.ForestGreen
 import com.asbdanja.tomatoguard.theme.LeafGreen
 import com.asbdanja.tomatoguard.theme.MintGreen
+import com.asbdanja.tomatoguard.theme.TomatoGuardTheme
 
 // ── About Screen ──────────────────────────────────────────────
 @OptIn(ExperimentalMaterial3Api::class)
@@ -128,5 +130,13 @@ fun AboutInfoCard(
                 )
             }
         }
+    }
+}
+
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun AboutPreviewScreen(){
+    TomatoGuardTheme {
+        AboutScreen(onBack = {})
     }
 }
